@@ -1,0 +1,133 @@
+    /* applying to whole page  */
+      
+    *{
+        background: position 0;;
+    }
+      
+      
+      
+      /* fixing the top nav-bar in the page*/
+
+
+/*code here*/
+
+ 
+      
+
+/* nav- items in navbar is horizontal and block display*/
+li{
+    float: left;
+}
+.nav-item-1  {
+    position: relative;
+    display: inline-block;
+    padding:15px;
+}
+
+.nav-item-2{
+    position: relative;
+    display: inline-block;
+    padding:15px;
+}  
+
+.nav-item-3{
+    position: relative;
+    display: inline-block;
+    padding:15px;
+}
+
+.nav-item-4{
+    padding:15px;
+}
+
+.nav-item-5{   
+    padding:15px;
+  }
+
+
+      /*drop down content display characters */
+.dropdown-content-1 {
+    display: none;
+    position: absolute;
+    background-color:whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px;
+    z-index: 1;
+  }
+
+  .dropdown-content-2 {
+    display: none;
+    position: absolute;
+    background-color:whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+
+  .dropdown-content-3 {
+    display: none;
+    position: absolute;
+    background-color:whitesmoke;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+
+        /* hover characters of dropdown content */
+
+  .nav-item-1:hover .dropdown-content-1 {
+    display: block;
+  }
+
+  .nav-item-2:hover .dropdown-content-2 {
+    display: block;
+  }
+
+  .nav-item-3:hover .dropdown-content-3 {
+    display: block;
+  }
+
+  
+
+  a:hover{
+    color:green;
+  }
+
+  .dropdown-content-1 a {
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display:block;
+  }
+  
+  .dropdown-content-2 a {
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+  }
+  
+
+  .dropdown-content-3 a {
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content-1 a:hover {background-color:lightcoral}
+  .dropdown-content-2 a:hover {background-color:lightcoral}
+  .dropdown-content-3 a:hover {background-color:lightcoral}
+
+
+  .card{
+    clear:none;
+    float:left;
+
+    margin:25px;
+    padding:20px;
+    position:relative;
+  }
